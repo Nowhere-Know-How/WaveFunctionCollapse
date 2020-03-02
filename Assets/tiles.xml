@@ -1,0 +1,15 @@
+<set>
+  <tiles>
+<tile name="White" symmetry="X" weight="1.0"/>
+<tile name="Black" symmetry="X" weight="1.0"/>
+	</tiles>
+<neighbors>  <neighbor left="Black 0" right="Black 0"/>
+  <neighbor left="Black 1" right="Black 1"/>
+  <neighbor left="Black 0" right="White 0"/>
+  <neighbor left="White 0" right="Black 0"/>
+  <neighbor left="White 1" right="White 1"/>
+  <neighbor left="Black 1" right="White 1"/>
+  <neighbor left="White 0" right="White 0"/>
+  <neighbor left="White 1" right="Black 1"/>
+	</neighbors>
+</set>
